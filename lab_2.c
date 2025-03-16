@@ -44,7 +44,7 @@ int main()
     for (i = 0; i < n; i+=1) {
         if (fabs(X[i] - Y[i]) < A) {
             Z[j] = X[i];
-            j++;
+            j+=1;
         }
     }
 
